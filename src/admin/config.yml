@@ -29,7 +29,7 @@ collections:
     label: "dragon"
     folder: "src/content/dragon"
     media_folder: "src/assets/images/dragon"
-    public_folder: "/assets/images/dragon
+    public_folder: "/assets/images/dragon"
     create: true
     slug: "{{slug}}"
     fields:
