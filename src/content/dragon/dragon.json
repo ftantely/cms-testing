@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/lunar.html",
+  "tags": "dragon",
+  "permalink": "dragon/{{title}}/index.html"
+}
