@@ -6,13 +6,14 @@ local_backend: true
 # change url to a link to the image you want to use, no file paths, must be a URL
 logo_url: https://codestitch.app/frontend/images/logo.png
 
-media_folder: "src/assets/images/cms"
-public_folder: "/assets/images/cms"
+
 
 collections:
   - name: "cms"
     label: "cms"
     folder: "src/content/cms"
+    media_folder: "src/assets/images/cms"
+    public_folder: "/assets/images/cms"
     create: true
     slug: "{{slug}}"
     fields:
@@ -27,6 +28,8 @@ collections:
 
   - name: "dragon"
     label: "dragon"
+    media_folder: "src/assets/images/dragon"
+    public_folder: "/assets/images/dragon"
     create: true
     slug: "{{slug}}"
     fields:
