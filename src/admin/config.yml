@@ -12,8 +12,6 @@ collections:
   - name: "cms"
     label: "cms"
     folder: "src/content/cms"
-    media_folder: "src/assets/images/cms"
-    public_folder: "/assets/images/cms"
     create: true
     slug: "{{slug}}"
     fields:
@@ -28,6 +26,7 @@ collections:
 
   - name: "dragon"
     label: "dragon"
+    folder: "src/content/dragon"
     media_folder: "src/assets/images/dragon"
     public_folder: "/assets/images/dragon"
     create: true
